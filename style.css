@@ -34,15 +34,7 @@ text-align: center;
 }
 
 .gradient{
-    background: rgb(255,0,153);
-background: linear-gradient(276deg, rgba(255,0,153,1) 0%, rgba(94,175,244,1) 100%);
-
-}
-/* style="color: #5EAFF4;" */
-
-text{
+	background: rgb(255,0,153);
 	background: linear-gradient(276deg, rgba(255,0,153,1) 0%, rgba(94,175,244,1) 100%);
-    -webkit-backdrop-clip:text;
-    -webkit-text-fill-color:transparent;
-	background-clip: text;
+
 }
