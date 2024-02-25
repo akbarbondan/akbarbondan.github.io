@@ -84,6 +84,22 @@ body {
   float: right;
   width: 90%;
   height: 40%;
+  flex-wrap: wrap;
+}
+
+.hero .grid-container .item1 {
+  /* width: 70%; */
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 12px;
+}
+
+.hero .grid-container .item2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 12px;
 }
 
 .hero .grid-container .item1 h6 {
@@ -145,7 +161,7 @@ body {
 
 /* Reasonwht start */
 .reasonwhy {
-  padding: 15px 7%;
+  padding: 5px 7%;
 }
 .reasonwhy .grid-container {
   min-height: 100vh;
@@ -476,6 +492,13 @@ footer .copyright {
 
   .hero{
     margin-top: 80px;
+  }
+
+  .hero .grid-container {
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
   }
 
   .hero .grid-container .item2{
