@@ -490,15 +490,13 @@ footer .copyright {
     padding: 0.5rem;
   }
 
-  .hero{
-    margin-top: 80px;
-  }
 
   .hero .grid-container {
-    min-height: 40vh;
+    height: 40vh;
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    margin-top: 0px;
   }
 
   .hero .grid-container .item2{
@@ -519,10 +517,34 @@ footer .copyright {
     height: 100vh;
   }
 
+
+
   .reasonwhy .grid-container .item2{
     width: 0px;
      height: 0px;
   }
+
+  .reasonwhy .grid-container .item1 h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 36px;
+}
+
+  .reasonwhy .grid-container {
+    min-height: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.reasonwhy .grid-container .item1 p {
+  display: flex;
+  font-size: 14px;
+  color: var(--black);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
 
   .showcase .box {
     max-width: 100%;
