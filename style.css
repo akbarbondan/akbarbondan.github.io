@@ -504,6 +504,10 @@ footer .copyright {
      height: 0px;
   }
 
+  .hero{
+    margin-top: 30px;
+  }
+
   .hero .grid-container .row .cta{
    margin-bottom: 12px;
   }
