@@ -150,15 +150,15 @@ body {
 .hero .grid-container .item1 .row .sosmed:hover {
   padding: 1rem 1rem;
   font-size: 18px;
-  color: var(--primary);
-  background-color: white;
+  color: white;
+  background-color: rgb(90, 161, 255);
   border-radius: 0.5rem;
   align-items: center;
   /* box-shadow: 1px 1px 3px rgba(233, 233, 247, 0.5); */
 }
 
 .hero .grid-container .item1 .row .cta:hover{
-  background-color: cadetblue;
+  background-color: rgb(90, 161, 255);
 }
 
 /* Hero end */
@@ -305,6 +305,14 @@ body {
   gap: 12px;
 }
 
+.showcase .box .row .content a:hover {
+  display: flex;
+  font-size: 18px;
+  color:  rgb(90, 161, 255);
+  align-items: center;
+  gap: 12px;
+}
+
 /* Showcase end */
 
 /* passion start */
@@ -384,6 +392,14 @@ body {
   align-items: center;
   color: var(--primary);
 }
+
+.passion .container .card .content a:hover{
+  display: flex;
+  align-items: center;
+  color: rgb(90, 161, 255);
+}
+
+
 
 .passion .container .card .content span {
   margin-left: 8px;
