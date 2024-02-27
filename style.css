@@ -157,6 +157,10 @@ body {
   /* box-shadow: 1px 1px 3px rgba(233, 233, 247, 0.5); */
 }
 
+.hero .grid-container .item1 .row .cta:hover{
+  background-color: cadetblue;
+}
+
 /* Hero end */
 
 /* Reasonwht start */
@@ -475,6 +479,12 @@ footer .copyright {
   .navbar .navbar-nav a {
     display: inline-block;
   }
+  .reasonwhy .grid-container {
+    /* min-height: 100vh; */
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
 }
 /* Mobile phone */
 @media (max-width: 450px) {
